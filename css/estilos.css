@@ -1,0 +1,21 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    border: 2px solid blue;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p {
+    align-self: flex-start;
+    font-weight: bold;
+}
